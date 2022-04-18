@@ -17,5 +17,4 @@ def list_projects(path: str) -> List[str]:
 def read_json_file(project_file: str) -> Any:
     with open(project_file) as f:
         project_data = json.load(f)
-        print(type(project_data))
     return project_data
